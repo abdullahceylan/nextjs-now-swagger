@@ -5,8 +5,10 @@
   "author": "Abdullah Ceylan <abdullah@creativouse.co.uk>",
   "license": "MIT",
   "scripts": {
-    "dev": "next dev",
-    "api": "node server.js"
+    "dev": "next",
+    "api": "node server.js",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "express": "^4.17.1",
