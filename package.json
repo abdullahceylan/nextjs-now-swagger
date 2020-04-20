@@ -1,0 +1,23 @@
+{
+  "name": "nextjs-now-swagger",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Abdullah Ceylan <abdullah@creativouse.co.uk>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "api": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "next": "^9.3.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "swagger-jsdoc": "^4.0.0",
+    "swagger-ui-express": "^4.1.4"
+  },
+  "devDependencies": {
+    "@abdullahceylan/eslint-config-react": "^1.1.0",
+    "@abdullahceylan/prettier-config": "^1.1.0"
+  }
+}
